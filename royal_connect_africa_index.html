@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Royal Connect Africa — Tourism · Trade · Transformative Growth</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;800&family=Lato:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --maroon:#5c1a1b;
+      --emerald:#2e4e1d;
+      --ink:#1b1b1b;
+      --sand:#f7f5f2;
+      --white:#ffffff;
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;padding:0;font-family:Lato,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;color:var(--ink);background:var(--sand)}
+    a{color:var(--emerald);text-decoration:none}
+    a.button{display:inline-block;padding:12px 20px;border-radius:8px;background:var(--emerald);color:#fff;font-weight:600}
+    a.button.alt{background:var(--maroon)}
+    header{
+      position:sticky;top:0;z-index:1000;
+      background:rgba(255,255,255,0.9);backdrop-filter:saturate(150%) blur(6px);
+      border-bottom:1px solid #e8e4de;
+    }
+    .nav{
+      max-width:1100px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;
+      padding:10px 16px;
+    }
+    .brand{display:flex;gap:10px;align-items:center}
+    .brand .logo{
+      width:36px;height:36px;border-radius:50%;background:linear-gradient(135deg,var(--maroon),var(--emerald));
+      display:grid;place-items:center;color:#fff;font-weight:800;font-family:Montserrat, sans-serif;
+    }
+    .brand .name{font-family:Montserrat, sans-serif;font-weight:800;letter-spacing:.3px}
+    nav ul{list-style:none;margin:0;padding:0;display:flex;gap:16px;align-items:center}
+    nav li a{padding:10px 12px;border-radius:6px;color:var(--ink);font-weight:600}
+    nav li a:hover{background:#eee}
+    .hero{
+      background:linear-gradient(180deg, rgba(92,26,27,0.84), rgba(46,78,29,0.84)), url('https://images.unsplash.com/photo-1580294644256-43f9b9d77b9b?q=80&w=2400&auto=format&fit=crop') center/cover no-repeat;
+      color:#fff;text-align:center;padding:104px 16px 80px 16px;
+    }
+    .hero h1{font-family:Montserrat, sans-serif;font-size: clamp(28px, 6vw, 52px);margin:0 0 10px}
+    .hero p{max-width:820px;margin:8px auto 22px;line-height:1.6;font-size:clamp(16px,2.4vw,20px)}
+    .container{max-width:1100px;margin:0 auto;padding:56px 16px}
+    h2.section-title{font-family:Montserrat, sans-serif;color:var(--maroon);font-size:clamp(24px,4.4vw,34px);margin:0 0 16px}
+    .kpi{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:18px}
+    .kpi .card{background:#fff;border:1px solid #e8e4de;border-radius:12px;padding:18px}
+    .grid-2{display:grid;grid-template-columns:1.1fr .9fr;gap:24px;align-items:center}
+    .grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+    .card{background:#fff;border:1px solid #e8e4de;border-radius:12px;padding:18px}
+    .pill{display:inline-block;background:#efeae4;color:#5a5248;border-radius:999px;padding:6px 12px;font-size:12px;font-weight:700;letter-spacing:.3px}
+    .tag{display:inline-block;background:#e7f0e6;color:var(--emerald);border:1px solid #cfe0cc;border-radius:6px;padding:6px 10px;font-size:12px;margin:6px 6px 0 0}
+    .list{margin:0;padding-left:18px}
+    .list li{margin:6px 0}
+    .cta-band{background:linear-gradient(135deg,var(--emerald),#3d6b29);color:#fff;text-align:center;padding:36px 16px;border-radius:16px}
+    footer{background:var(--maroon);color:#fff;margin-top:40px}
+    footer .foot{max-width:1100px;margin:0 auto;padding:30px 16px;display:grid;grid-template-columns:1.1fr .9fr;gap:24px;align-items:center}
+    .small{font-size:14px;color:#4b463f}
+    /* Responsive */
+    @media (max-width:900px){
+      .grid-2{grid-template-columns:1fr}
+      .grid-3{grid-template-columns:1fr}
+      .kpi{grid-template-columns:1fr}
+      nav ul{gap:8px;flex-wrap:wrap;justify-content:flex-end}
+    }
+    /* Smooth scroll */
+    html{scroll-behavior:smooth}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="nav">
+      <div class="brand">
+        <div class="logo">R</div>
+        <div class="name">Royal Connect Africa</div>
+      </div>
+      <nav aria-label="Primary">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="home">
+    <section class="hero" role="banner" aria-label="Hero">
+      <h1>Tourism · Trade · Transformative Growth</h1>
+      <p>We connect Uganda and the UAE through curated travel experiences, export linkages, and partnerships that turn opportunity into impact.</p>
+      <p>
+        <a class="button" href="#services">Explore Services</a>
+        <a class="button alt" href="https://wa.me/971544392894" target="_blank" rel="noopener">WhatsApp Us</a>
+      </p>
+      <p class="small">Colors: Heritage Maroon (#5c1a1b) · Emerald Green (#2e4e1d) · Fonts: Montserrat + Lato</p>
+    </section>
+
+    <section id="about" class="container">
+      <h2 class="section-title">About Royal Connect Africa</h2>
+      <div class="grid-2">
+        <div>
+          <span class="pill">Mission</span>
+          <p>Bridge East Africa and the Gulf through sustainable tourism and reliable trade, creating prosperity with cultural respect.</p>
+          <span class="pill">Vision</span>
+          <p>A trusted conduit between Uganda and Dubai—where journeys inspire, exports scale, and communities thrive.</p>
+          <div class="kpi">
+            <div class="card"><strong>2 Regions</strong><br><span class="small">Uganda ↔ UAE focus</span></div>
+            <div class="card"><strong>3 Pillars</strong><br><span class="small">Tourism · Exports · Partnerships</span></div>
+            <div class="card"><strong>1 Purpose</strong><br><span class="small">Transformative growth</span></div>
+          </div>
+        </div>
+        <div class="card">
+          <h3 style="margin-top:0">What Sets Us Apart</h3>
+          <ul class="list">
+            <li><strong>Cultural fluency:</strong> authentic East African experiences built with local communities.</li>
+            <li><strong>Gulf readiness:</strong> investor-friendly storytelling, clear compliance, reliable logistics.</li>
+            <li><strong>Design-first:</strong> clean brand, simple offers, frictionless contact.</li>
+          </ul>
+          <div style="margin-top:12px">
+            <span class="tag">Heritage-led</span>
+            <span class="tag">Investor-ready</span>
+            <span class="tag">Diaspora-focused</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="container">
+      <h2 class="section-title">Services</h2>
+
+      <div class="grid-3" aria-label="Service Cards">
+        <div class="card">
+          <h3 style="margin-top:0;color:var(--emerald)">Tourism Experiences</h3>
+          <p>Curated journeys for the modern explorer.</p>
+          <ul class="list">
+            <li>Gorilla Trekking · Bwindi</li>
+            <li>Heritage Tours · Tooro & beyond</li>
+            <li>Safaris · Murchison & Queen Elizabeth</li>
+          </ul>
+          <p><a class="button" href="#contact">Request Itinerary</a></p>
+        </div>
+
+        <div class="card">
+          <h3 style="margin-top:0;color:var(--emerald)">Export Linkages</h3>
+          <p>Reliable Uganda → UAE product pipelines.</p>
+          <ul class="list">
+            <li>Coffee, tea & spices sourcing</li>
+            <li>Handicrafts & textiles curation</li>
+            <li>Trade & compliance advisory</li>
+          </ul>
+          <p><a class="button" href="#contact">Start a Trade Call</a></p>
+        </div>
+
+        <div class="card">
+          <h3 style="margin-top:0;color:var(--emerald)">Partnerships & Investment</h3>
+          <p>Co-create growth with aligned capital.</p>
+          <ul class="list">
+            <li>Tourism venture partnerships</li>
+            <li>Export JV & distribution</li>
+            <li>Diaspora investment programs</li>
+          </ul>
+          <p><a class="button" href="#contact">Request Deck</a></p>
+        </div>
+      </div>
+
+      <div style="margin-top:28px" class="cta-band">
+        <h3 style="margin:0;font-family:Montserrat,sans-serif">Let’s build the bridge: Uganda ↔ UAE</h3>
+        <p style="margin:8px 0 18px">Tell us what you want to explore, export, or invest in—our team will propose a clear next step within 24 hours.</p>
+        <a class="button" href="mailto:info@royalconnectafrica.com">Email Us</a>
+      </div>
+    </section>
+
+    <section id="contact" class="container">
+      <h2 class="section-title">Contact</h2>
+      <div class="grid-2">
+        <div class="card">
+          <h3 style="margin-top:0">Talk to Us</h3>
+          <p><strong>Email:</strong> <a href="mailto:info@royalconnectafrica.com">info@royalconnectafrica.com</a></p>
+          <p><strong>WhatsApp:</strong> <a href="https://wa.me/971544392894" target="_blank" rel="noopener">+971 54 439 2894</a></p>
+          <p><strong>Instagram:</strong> <a href="#" aria-label="Instagram link">@royalconnectafrica</a></p>
+          <p><strong>LinkedIn:</strong> <a href="#" aria-label="LinkedIn link">Royal Connect Africa</a></p>
+          <p class="small">Tip: replace # links with your actual profiles before publishing.</p>
+        </div>
+        <div class="card">
+          <h3 style="margin-top:0">Quick Inquiry</h3>
+          <form onsubmit="alert('Thanks! We will get back to you within 24 hours.'); return false;">
+            <label>Name<br><input type="text" required style="width:100%;padding:10px;border:1px solid #ddd;border-radius:8px"></label><br><br>
+            <label>Email<br><input type="email" required style="width:100%;padding:10px;border:1px solid #ddd;border-radius:8px"></label><br><br>
+            <label>Message<br><textarea rows="5" required style="width:100%;padding:10px;border:1px solid #ddd;border-radius:8px"></textarea></label><br><br>
+            <button class="button" type="submit">Send Inquiry</button>
+          </form>
+          <p class="small" style="margin-top:10px">For Netlify, wire this form to Netlify Forms by adding <code>name=\"contact\"</code> and a hidden input. I can provide that variant too.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="foot">
+      <div>
+        <div class="brand">
+          <div class="logo">R</div>
+          <div class="name">Royal Connect Africa</div>
+        </div>
+        <p style="margin:10px 0 0">© <span id="year"></span> Royal Connect Africa · All rights reserved.</p>
+      </div>
+      <div style="text-align:right">
+        <a class="button alt" href="#home">Back to top</a>
+      </div>
+    </div>
+  </footer>
+  <script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+</body>
+</html>
