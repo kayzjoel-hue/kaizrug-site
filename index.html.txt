@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Royal Connect Africa — Tourism · Trade · Transformative Growth</title>
+<meta name="description" content="We connect Uganda and the UAE through curated travel experiences, export linkages, and partnerships that turn opportunity into impact.">
+<link rel="canonical" href="https://aftrica.tours/">
+<meta property="og:title" content="Royal Connect Africa — Tourism · Trade · Transformative Growth">
+<meta property="og:description" content="Bridging Uganda and the UAE through heritage-led tourism and reliable trade.">
+<meta property="og:url" content="https://aftrica.tours/">
+<meta property="og:image" content="https://africa.tours/assets/cover-royalconnect.jpg">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@600;800&display=swap" rel="stylesheet">
+
+<style>
+  :root{
+    --bg:#0e0f13; --card:#14161b; --muted:#b4bcc6; --text:#eef1f3;
+    --brand:#5c1a1b; /* Heritage Maroon */
+    --accent:#2e4e1d; /* Emerald */
+    --border:#252833;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:linear-gradient(180deg,#0b0c10,#12131a);color:var(--text);font:16px/1.6 Lato,system-ui,-apple-system,Segoe UI,Roboto}
+  .wrap{max-width:980px;margin:40px auto;padding:0 18px}
+  header{padding:28px 0 12px;border-bottom:1px solid var(--border); position:sticky; top:0; backdrop-filter: blur(6px); background:rgba(11,12,16,0.6)}
+  .brand{font:800 22px/1 Montserrat,system-ui; letter-spacing:.4px}
+  nav a{color:var(--muted);text-decoration:none;margin-right:16px}
+  nav a:hover{color:var(--text)}
+  h1{font:800 40px/1.1 Montserrat,system-ui;margin:24px 0 12px;color:var(--text)}
+  h2{font:700 26px/1.2 Montserrat;margin:28px 0 12px;color:var(--text)}
+  .lead{color:var(--muted);font-size:18px}
+  .btn{display:inline-block;margin-top:14px;padding:10px 16px;border:1px solid var(--brand);border-radius:8px;color:var(--text);text-decoration:none}
+  .btn:hover{background:rgba(92,26,27,.25)}
+  section{padding:34px 0;border-bottom:1px solid var(--border)}
+  .service-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px;padding:0;list-style:none}
+  .card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:16px}
+  footer{padding:24px 0;color:var(--muted)}
+  a{color:#9ad5a2}
+  img{max-width:100%;height:auto;border-radius:10px}
+</style>
+</head>
+<body>
+  <header>
+    <div class="wrap" style="display:flex;align-items:center;justify-content:space-between">
+      <div class="brand">Royal Connect Africa</div>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section id="hero" style="padding-top:28px">
+      <h1>Tourism · Trade · Transformative Growth</h1>
+      <p class="lead">Bridging Uganda and the UAE through heritage‑led tourism and reliable trade.</p>
+      <a class="btn" href="#services">Discover Our Work</a>
+    </section>
+
+    <section id="about">
+      <h2>About</h2>
+      <div class="card">
+        <p>Royal Connect Africa is a pan‑African startup founded in the UAE by Joel Kaizire. We build respectful, modern bridges between East Africa and the Gulf—pairing cultural intelligence with digital execution.</p>
+        <p>Vision: A trusted bridge between Uganda and Dubai—where journeys inspire, exports grow, and communities prosper.</p>
+      </div>
+    </section>
+
+    <section id="services">
+      <h2>What We Do</h2>
+      <ul class="service-grid">
+        <li class="card">
+          <strong>Tourism Experiences</strong><br>
+          Curated Tooro & Uganda journeys, local hosts, and eco‑respect. Small groups, big meaning.
+        </li>
+        <li class="card">
+          <strong>Export Linkages</strong><br>
+          Dubai → Uganda supply runs (accessories, packaging, hospitality goods) with vetted partners.
+        </li>
+        <li class="card">
+          <strong>Digital Marketing</strong><br>
+          Content, socials, and brand storytelling for heritage & hospitality brands.
+        </li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <div class="card">
+        <p>Email: <a href="mailto:info@royalconnectafrica.com">info@royalconnectafrica.com</a></p>
+        <p>WhatsApp: <a href="https://wa.me/971544392894">+971 54 439 2894</a></p>
+        <p>
+          <a href="https://www.instagram.com/royal_connectafrica/" rel="noopener">Instagram</a> ·
+          <a href="https://www.linkedin.com/in/kaizire-joel-1b4100153" rel="noopener">LinkedIn</a>
+        </p>
+
+        <form name="contact" netlify>
+          <input type="hidden" name="form-name" value="contact">
+          <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px">
+            <input name="name" placeholder="Your name" required>
+            <input name="email" type="email" placeholder="Email" required>
+          </div>
+          <textarea name="message" placeholder="How can we help?" style="margin-top:12px;height:120px" required></textarea>
+          <button class="btn" type="submit">Send</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="wrap">
+    © 2025 Royal Connect Africa — All Rights Reserved
+  </footer>
+</body>
+</html>
